@@ -1,0 +1,156 @@
+meta:
+  title: Souradip Chandra's Resume
+  lastUpdated: September 2023
+  viewOn:
+    - name: web
+      link: https://resume.souradip.ch
+    - name: Download
+      link: https://drive.google.com/file/d/1U7_NXwf9QyTroc73zO5dKI29dwwKOuU5/view
+
+header:
+  name: Souradip Chandra
+  title: Software Developer
+  logo:
+    path: /logos/soura-logo.svg
+    alt: Souradip's logo
+
+navigation:
+  - name: website
+    alias: souradip.ch
+    link: https://souradip.ch
+  - name: leetcode
+    alias: souradip22
+    link: https://leetcode.com/SOURADIP22/
+  - name: mail
+    alias: souradip.chandra97@gmail.com
+    link: mailto:souradip.chandra97@gmail.com
+  - name: GitHub
+    alias: "@souradip22"
+    link: https://github.com/Souradip22
+  - name: LinkedIn
+    alias: "@souradip22"
+    link: https://www.linkedin.com/in/souradip-chandra-563962141/
+
+education:
+  - name: Academy Of Technology, WB
+    link: https://aot.edu.in/
+    logo: /logos/aot-logo.svg
+    dates:
+      start: May 2014
+      end: May 2018
+    degree: Bachelor of Technology
+    score: "CGPA: 8.6/10"
+
+experience:
+  - name: Dassault Systèmes
+    branding:
+      logo: /logos/3DS-logo.svg
+      # color: "#1DFDC0"
+    link: https://www.3ds.com/
+    links:
+      - name: website
+        link: https://www.3ds.com/
+    dates:
+      start: May 2021
+      end: September 2023
+    role: "Research And Development Specialist"
+    location: Bangalore, India
+    description:
+      - Created and deployed **16+ scalable** project management software APIs with **80% code coverage** using JavaScript, Java, and RDF tech, serving millions of daily requests. Achieved linear scalability up to **32 concurrent requests (CR)**.
+      - Worked on **Event Publishing** service integration, where I designed and developed different structured messages in accordance with event guidelines. Also published these messages to the **Message Bus topic**, allowing subscribed consumers to access and read them. The technology used – Java, **ActiveMQ**, and Javascript.
+      - Successfully integrated multiple services with the 3DPlan service, such as User groups and notification services. Contributed to XPP's sales numbers, achieving an impressive **+118% growth compared to the previous year for Q1 and Q2 of 2022**. 
+      - Reviewed PES (Product Enhancement Specification), breaking stories into sub-tasks, and followed **Test-Driven Development (TDD)** practices. Provided prompt CR (Code Review) feedback within one day of opening and implemented **PCS (Performance Scalability)** test scripts for various functionalities. Experienced in agile and scrum working methodologies.
+
+
+  - name: Wipro Ltd
+    branding:
+      logo: /logos/Wipro-logo.svg
+      # color: "#A112FF"
+    link: https://www.wipro.com/
+    links:
+      - name: website
+        link: https://www.wipro.com/
+    dates:
+      start: August 2018
+      end: May 2021
+    role: Senior Software Developer  – Frontend Platform
+    location: Bangalore, India
+    description:
+      - Designed and developed the Inferences and Interventions module of Levi’s revenue forecasting dashboard and integrated it with the backend ML engine. Got featured on news [**websites Customer’s Spotlight (5K+ Monthly traffic)**](https://www.wipro.com/holmes/form/idc-customer-spotlight-ai-based-revenue-shaping-as-a-tool-to-improve-business-outcomes/) using technologies such as Highcharts, Angular, Flask, etc.
+      - Played a key role in developing the user interfaces for over **four cutting-edge AI-driven backend applications**. These applications currently serve as proofs of concept (POC) for addressing a diverse range of business challenges. 
+      - Implemented role-based access control for different users across multiple Business Units in Wipro's internal **revenue prediction dashboard** using CAS (Centralized Authentication Service). **Optimized legacy code** to improve performance and reduce technical debt, resulting in a **2x increase in visitors**.
+
+
+projects:
+  - name: Souradip.ch
+    subtitle: My Personal Portfolio Website
+    link: https://souradip.ch
+    links:
+      - name: Website
+        link: https://souradip.ch
+
+    description:
+      - Designed, developed, and deployed a comprehensive portfolio website aimed at enhancing online visibility and sharing knowledge with a broader audience. 
+      - The website features technical blogs on diverse subjects, including distributed systems, high-level design, low-level design, and software engineering best practices.
+      - Leveraged the following technologies - **Sanity** as a CMS (Content Management System), **Supabase** as the database, and **Next.js** for frontend development. Additionally, integrated third-party APIs from platforms such as **LeetCode, Google Analytics, EmailJs, Mailchimp**.
+
+  - name: Low-Level Design Repo
+    subtitle: ""
+    link: https://github.com/Souradip22/My-Notes-LLD
+    links:
+      - name: GitHub
+        link: https://github.com/Souradip22/My-Notes-LLD
+    description:
+      - Established a GitHub repository to assist individuals in initiating their journey into low-level design using Python. 
+      - The repository encompasses a range of topics, including UML diagrams, commonly employed design patterns, and comprehensive code examples for popular low-level concepts.
+
+
+highlights:
+  - Champion [**Award**](https://drive.google.com/file/d/1gp38aD2zkhkiR-4HUZ6qIW7PzjqP_3e-/view) for significant contribution – H2- 2021
+  - Certificate of [**Achievement**](https://drive.google.com/file/d/1R9B2zshT-ThAScSnI7rtaU-E4IjNy9gH/view) – Front-end Development – Angular
+  - Solved 350+ problems on [**Leetcode**](https://leetcode.com/SOURADIP22/) and [**Coding Ninja**](https://www.codingninjas.com/studio/profile/96db8ccf-592f-40b8-88f1-58b6451d3955)
+
+  - Victory League Extraordinary Commitment - 2020 – JULY
+
+
+skills:
+  - type: Languages
+    items:
+      - Python
+      - JAVA
+      - JavaScript (ES5/ES6)
+      - Backbone
+      - HTML5
+      - CSS3
+  - type: Frameworks
+    items:
+      - Node.js
+      - NextJs
+      - Angular
+      - RDFs
+      - Supabase
+      - Firebase
+  - type: Tools
+    items:
+      - Git
+      - GitHub
+      - NuoDB
+      - Postman
+      - REST APIs
+      - Linux
+      - Docker
+      - Kubernetes
+      - NoSQL
+  - type: Skills
+    items:
+      - DSA (Data Structures and Algorithms)
+      - HLD (High-Level Design)
+      - LLD (Low-Level Design)
+      - OOPs (Object-Oriented Programming)
+      - Agile
+      - Back-end
+      - CI/CD (Continuous Integration/Continuous Deployment)
+      - SCRUM
+      - Distributed Systems
+      - TDD (Test-Driven Development)
+      - PCS Tests
